@@ -33,7 +33,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_weight="0"
-                android:background="@drawable/baseline_backspace_black_24dp" />
+                android:background="@drawable/baseline_backspace_black_24dp"
+                android:onClick="buDeleteAction" />
         </TableRow>
 
     </TableLayout>
@@ -89,6 +90,7 @@
                 android:layout_height="100dp"
                 android:layout_margin="2pt"
                 android:background="@drawable/buttons"
+                android:onClick="buDialAction"
                 android:text="4"
                 android:textSize="50dp" />
 
